@@ -20,3 +20,19 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
+
+.bg {
+    background: url('../img/bg-site-allan.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+header {
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 0 0 10px 10px;
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    margin: 0 7px;
+}
+.logo-link {
+    display: inline-block;
+    padding: 6px 15px;
+}
