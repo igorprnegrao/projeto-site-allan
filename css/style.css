@@ -7,4 +7,13 @@
     box-sizing: border-box;
     position: relative;
     border: none;
-} 
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #2c6082;
+    color: white;
+}
