@@ -103,24 +103,44 @@ nav a {
 
 #titulo-principal {
     z-index: 2;
-    top: 250px;
-    left: 20px;
+    top: 550px;
+    left: 10px;
+}
+
+#img-back {
+    top: 300px;
+    
 }
 #titulo-principal h1 {
     display: flex;
-    height: 100%;
+    align-items: center;
     justify-content: center;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     font-size: 2rem;
     margin: 0 15px;
+    padding-left: 20px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-    
-}
+    border: #fff solid 2px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(333, 333, 333, 0.3);
 
+}
+.degrade {
+    /* Permalink - use to edit and share this gradient. Link permanente - use para editar e compartilhar este gradiente: https://colorzilla.com/gradient-editor/#47beed+0,47beed+22,47beed+37,47beed+60,207cca+60,47beed+60,47beed+100&0.71+10,1+38,1+38,1+79,1+84 */
+    background: linear-gradient(to bottom,  rgba(71,190,237,0.05) 0%,rgba(71,190,237,0.3) 10%,rgba(71,190,237,0.4) 22%,rgba(71,190,237,0.5) 37%,rgba(71,190,237,0.6) 38%,rgba(71,190,237,0.7) 60%,rgba(71,190,237,0.8) 79%,rgba(71,190,237,0.9) 84%,rgba(71,190,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    display: block;
+    height: 30%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+}
 #img-back {
     z-index: 1;
 }
 
 .foto-abraco {
-    opacity: 0.6;
+    position: absolute;
+    left: 20px;
+    opacity: 0.98;
 }
