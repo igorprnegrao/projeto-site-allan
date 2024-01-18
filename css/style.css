@@ -96,3 +96,32 @@ nav a {
 #chk-toggle:checked ~ nav {
     height: auto;
 }
+
+#titulo-principal, #img-back {
+    position: absolute;
+}
+
+#titulo-principal {
+    z-index: 2;
+    top: 250px;
+    left: 30px;
+}
+#titulo-principal h1 {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 15px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+#img-back {
+    z-index: 1;
+}
+
+.foto-abraco {
+    opacity: 0.6;
+}
