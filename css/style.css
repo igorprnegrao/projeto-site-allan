@@ -20,9 +20,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
-
+/* Background */
 .bg {
-    background: url('../img/bg-site-allan.jpg') no-repeat center;
+    background: url('../img/bg-site-allan.jpg') no-repeat left;
     background-size: cover;
     height: 100%;
 }
