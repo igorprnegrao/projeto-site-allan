@@ -104,7 +104,7 @@ nav a {
 #titulo-principal {
     z-index: 2;
     top: 250px;
-    left: 30px;
+    left: 25px;
 }
 #titulo-principal h1 {
     display: flex;
