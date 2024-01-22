@@ -132,7 +132,7 @@ nav a {
     height: 30%;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: -1px;
     z-index: 0;
 }
 #img-back {
@@ -142,4 +142,26 @@ nav a {
 .foto-abraco {
     left: 20px;
     opacity: 0.98;
+}
+
+.sobremimbg {
+
+    background-color: rgb(71, 190, 237);
+    margin-left: 0;
+    border-top: 0;
+    padding: 0;
+    bottom: 0;
+}
+.sobremim p {
+    color: black;
+    margin: 20px;
+    
+}
+
+.sobremim h2 {
+    color: black;
+    margin: 20px;
+    
+    text-decoration: underline;
+    
 }
