@@ -148,7 +148,6 @@ nav a {
 section p {
     color: black;
     margin: 20px;
-    
 }
 
 section h2 {
@@ -160,8 +159,6 @@ section h2 {
 #sobremimbg {
     background: url('../img/allan-paletsra.jpg') no-repeat center;
     background-size: cover;
-    opacity: 0.4;
-    
 }
 
 
