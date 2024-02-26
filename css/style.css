@@ -8,9 +8,13 @@
     position: relative;
     border: none;
 }
-
-html, body {
+/* Background */
+html, body, .bg {
     height: 100vh;
+    background: url('../img/bg-site-allan.jpg') no-repeat left;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
 }
 
 body {
@@ -20,12 +24,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
-/* Background */
-.bg {
-    background: url('../img/bg-site-allan.jpg') no-repeat left;
-    background-size: cover;
-    height: 100%;
-}
+
+
 header {
     background: rgba(255, 255, 255, 0.20);
     border-radius: 0 0 10px 10px;
@@ -125,16 +125,8 @@ nav a {
     background: rgba(333, 333, 333, 0.3);
 
 }
-.degrade {
-    /* Permalink - use to edit and share this gradient. Link permanente - use para editar e compartilhar este gradiente: https://colorzilla.com/gradient-editor/#47beed+0,47beed+22,47beed+37,47beed+60,207cca+60,47beed+60,47beed+100&0.71+10,1+38,1+38,1+79,1+84 */
-    background: linear-gradient(to bottom,  rgba(71,190,237,0.05) 0%,rgba(71,190,237,0.3) 10%,rgba(71,190,237,0.4) 22%,rgba(71,190,237,0.5) 37%,rgba(71,190,237,0.6) 38%,rgba(71,190,237,0.7) 60%,rgba(71,190,237,0.8) 79%,rgba(71,190,237,0.9) 84%,rgba(71,190,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    display: block;
-    height: 30%;
-    position: absolute;
-    width: 100%;
-    bottom: -1px;
-    z-index: 0;
-}
+
+
 #img-back {
     z-index: 1;
 }
@@ -146,20 +138,30 @@ nav a {
 
 /* Fazer depois esse backgound */
 section p {
-    color: black;
+    color: #fff;
     margin: 20px;
+    line-height: 30px;
 }
 
 section h2 {
-    color: black;
+    color: #fff;
     margin: 20px;
     text-decoration: underline;
 }
 
-#sobremimbg {
-    background: url('../img/allan-paletsra.jpg') no-repeat center;
-    background-size: cover;
+
+.listabandeiras {
+    margin-left: 30px;
+
 }
 
+.redes {
+    height: 100px;
+    background-color: white;
+}
+
+.listabandeiras li {
+    line-height: 30px;
+}
 
 
