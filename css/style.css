@@ -162,10 +162,6 @@ section h2 {
 
 }
 
-
-
-
-
 .listabandeiras li {
     line-height: 30px;
 }
@@ -175,6 +171,15 @@ section h2 {
     width: 350px;
 }
 
+footer {
+    width: 100%;
+    color: #fff;
+
+}
+
+#footer_content {
+    background-color: rgba(0, 32, 96, 0.6);
+}
 
 
 
