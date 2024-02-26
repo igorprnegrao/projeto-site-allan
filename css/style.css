@@ -138,6 +138,10 @@ nav a {
     opacity: 0.98;
 }
 
+#sobremim h2 {
+    margin-top: 200px;
+}
+
 /* Fazer depois esse backgound */
 section p {
     color: #fff;
@@ -148,6 +152,7 @@ section p {
 section h2 {
     color: #fff;
     margin: 20px;
+    margin-top: 80px;
     text-decoration: underline;
 }
 
