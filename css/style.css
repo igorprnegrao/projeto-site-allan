@@ -181,6 +181,25 @@ footer {
     background-color: rgba(0, 3, 9, 0.6);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 2rem;
+}
+
+#footer_contacts h2 {
+    margin-bottom:  0.75rem;
+}
+
+#footer_social_midia {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_midia .footer-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    
 }
 
 
