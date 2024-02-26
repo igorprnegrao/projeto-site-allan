@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    letter-spacing: 1px;
+}
+/* Background */
+html, body, .bg {
+    height: 100vh;
+    width: 100wh;
+    background: url('../img/bg-site-allan.jpg') no-repeat left;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgb(71, 190, 237);
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+header {
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 0 0 10px 10px;
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    margin: 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Logo do Header */
+
+.logo-link {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+/* Menu hamburguer */
+#chk-toggle {
+    display: none;
+
+}
+
+#toggle {
+    display: inline-block;
+    padding: 11px;
+}
+
+#toggle span {
+    display: block;
+    width: 27px;
+    height: 4px;
+    background-color: #fff;
+    margin: 4px;
+}
+
+/* Navegação */
+nav {
+    flex-basis: 100%;
+    height: 0; /*abri e fecha o menu*/
+    overflow: hidden; /*abri e fecha o menu*/
+}
+
+nav ul {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: rgba(255, 255, 255, 0.10) solid 1px;
+}
+
+nav ul li:nth-last-child(1) {
+    border-bottom: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 0.98rem;
+    padding: 8px;
+}
+
+/* abri e fecha o menu  */
+#chk-toggle:checked ~ nav {
+    height: auto;
+}
+
+#titulo-principal, #img-back {
+    position: absolute;
+}
+
+#titulo-principal {
+    z-index: 2;
+    top: 588px;
+    left: 3px;
+}
+
+#img-back {
+    position: absolute;
+    top: 224px;
+    
+}
+#titulo-principal h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0 8px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border: #fff solid 2px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(333, 333, 333, 0.3);
+
+}
+
+
+#img-back {
+    z-index: 1;
+}
+
+.foto-abraco {
+    left: 20px;
+    opacity: 0.98;
+}
+
+#sobremim h2 {
+    margin-top: 200px;
+}
+
+/* Fazer depois esse backgound */
+section p {
+    color: #fff;
+    margin: 20px;
+    line-height: 30px;
+}
+
+section h2 {
+    color: #fff;
+    margin: 20px;
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+
+.listabandeiras {
+    margin-left: 30px;
+
+}
+
+.listabandeiras li {
+    line-height: 30px;
+}
+.logocasa {
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+
+footer {
+    width: 100%;
+    color: #fff;
+
+}
+
+#footer_content {
+    background-color: rgba(0, 3, 9, 0.6);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 2rem;
+}
+
+#footer_contacts h2 {
+    margin-bottom:  0.75rem;
+}
+
+#footer_social_midia {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_midia .footer-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+#input-group i {
+    
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
