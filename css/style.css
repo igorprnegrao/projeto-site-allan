@@ -178,7 +178,9 @@ footer {
 }
 
 #footer_content {
-    background-color: rgba(0, 32, 96, 0.6);
+    background-color: rgba(0, 3, 9, 0.6);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
