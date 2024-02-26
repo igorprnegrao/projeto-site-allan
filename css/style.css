@@ -11,6 +11,7 @@
 /* Background */
 html, body, .bg {
     height: 100vh;
+    width: 100wh;
     background: url('../img/bg-site-allan.jpg') no-repeat left;
     background-size: cover;
     height: 100%;
@@ -103,7 +104,7 @@ nav a {
 
 #titulo-principal {
     z-index: 2;
-    top: 550px;
+    top: 700px;
     left: 3px;
 }
 
@@ -162,6 +163,11 @@ section h2 {
 
 .listabandeiras li {
     line-height: 30px;
+}
+.logocasa {
+    text-align: center;
+    margin: auto;
+    width: 350px;
 }
 
 
