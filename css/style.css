@@ -190,8 +190,10 @@ footer {
 
 #footer_social_midia {
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
     margin-top: 1.5rem;
+    align-items: center;
+    align-content: center;
 }
 #footer-link {
     text-decoration: none;
