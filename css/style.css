@@ -104,12 +104,13 @@ nav a {
 
 #titulo-principal {
     z-index: 2;
-    top: 665px;
+    top: 588px;
     left: 3px;
 }
 
 #img-back {
-    top: 250px;
+    position: absolute;
+    top: 224px;
     
 }
 #titulo-principal h1 {
