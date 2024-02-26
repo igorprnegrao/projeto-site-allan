@@ -6,6 +6,7 @@
     box-sizing: border-box;
     position: relative;
     border: none;
+    letter-spacing: 1px;
 }
 /* Background */
 html, body, .bg {
@@ -161,10 +162,9 @@ section h2 {
 
 }
 
-.redes {
-    height: 100px;
-    background-color: white;
-}
+
+
+
 
 .listabandeiras li {
     line-height: 30px;
