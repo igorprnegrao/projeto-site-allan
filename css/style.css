@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
     padding: 0;
     margin: 0;
@@ -174,6 +173,10 @@ section h2 {
     text-align: center;
     margin: auto;
     width: 350px;
+}
+
+@media screen {
+    
 }
 
 
