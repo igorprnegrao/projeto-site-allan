@@ -255,6 +255,16 @@ footer {
     
 }
 
+#footer_copyright p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 25px;
+    font-size: 1.2rem;
+}
+
+
+
 
 
 
