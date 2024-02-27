@@ -249,7 +249,10 @@ footer {
 
 #footer_copyright {
     text-align: center;
-    left: 30px;
+
+    background-color: black;
+    height: 83px;
+    
 }
 
 
