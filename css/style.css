@@ -209,6 +209,15 @@ footer {
     color: #fff;
     border-radius: 50%;
     font-size: 30px;
+    transition: all 0.4s;
+}
+
+#footer_social_midia a i:hover {
+    opacity: 0.8;
+}
+
+.footer-lits {
+    list-style: none;
 }
 
 #input-group i {
@@ -216,6 +225,8 @@ footer {
     font-size: 30px;
     color: #fff;
 }
+
+
 
 
 
