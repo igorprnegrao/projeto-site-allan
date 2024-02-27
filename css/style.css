@@ -186,11 +186,20 @@ footer {
 
 .footer-frase {
     text-align: center;
-    margin-left: 30px;
+    
 }
 
 #footer_contacts h2 {
     margin-bottom:  0.75rem;
+    margin-left: -10px;
+}
+
+#footer_contacts p {
+    margin-left: -10px;
+}
+
+.footer-frase {
+    left: 35px;
 }
 
 #footer_social_midia {
@@ -200,30 +209,47 @@ footer {
     align-items: center;
     align-content: center;
 }
-#footer-link {
-    text-decoration: none;
-}
+
 #footer_social_midia .footer-link {
     height: 2.5rem;
     width: 2.5rem;
     color: #fff;
     border-radius: 50%;
     font-size: 30px;
-    transition: all 0.4s;
+    text-decoration: none;
+    left: 40px;
 }
 
-#footer_social_midia a i:hover {
-    opacity: 0.8;
-}
 
-.footer-lits {
+
+.footer-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-link-casa {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-link-cmb {
+    color: #fff;
+    text-decoration: none;
 }
 
 #input-group i {
     
     font-size: 30px;
     color: #fff;
+}
+
+#footer_copyright {
+    text-align: center;
+    left: 30px;
 }
 
 
